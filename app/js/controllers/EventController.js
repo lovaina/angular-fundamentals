@@ -18,22 +18,34 @@ function EventController($scope) {
                     creatorName: 'Candidatuss experimentum! ',
                     duration: '1 hr',
                     level: 'Advanced',
-                    abstract: 'Rumor messiss, tanquam regius barcas.'
+                    abstract: 'Rumor messiss, tanquam regius barcas.',
+                    upVoteCount: 0
                 },
                 {
                     name: 'Powers, moons, and beloved explosion of the minerals will always protect them.',
                     creatorName: 'Amicitias resistere! ',
                     duration: '1 hr',
                     level: 'Introductory',
-                    abstract: 'A falsis, advena fortis navis.'
+                    abstract: 'A falsis, advena fortis navis.',
+                    upVoteCount: 0
                 },
                 {
                     name: 'Margerine can be decorateed with sweet steak, also try covering the frittata with peanut sauce.',
                     creatorName: 'Sagas crescere! ',
                     duration: '1 hr',
                     level: 'Intermediate',
-                    abstract: 'Galatae potuss, tanquam magnum idoleum.'
+                    abstract: 'Galatae potuss, tanquam magnum idoleum.',
+                    upVoteCount: 0
                 }
             ]
-        }
+
+        };
+
+        $scope.upVoteSession = function (session) {
+            session.upVoteCount++;
+        };
+
+        $scope.downVoteSession = function (session) {
+            session.upVoteCount--;
+        };
 });
