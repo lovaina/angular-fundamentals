@@ -2,11 +2,7 @@
 
 eventsApp.controller('EventController',
 function EventController($scope) {
-
-        $scope.snippet = '<span style="color:red"> hi mei </span>';
-        $scope.boolValue = true;
-    $scope.myStyle = {color:'red'};
-    $scope.myClass = 'blue';
+        $scope.sortOrder = 'name';
         $scope.event = {
             name: 'Angular Boot Camp',
             date: '1/1/2013',
@@ -39,6 +35,15 @@ function EventController($scope) {
                     creatorName: 'Sagas crescere! ',
                     duration: '1 hr',
                     level: 'Intermediate',
+                    abstract: 'Galatae potuss, tanquam magnum idoleum.',
+                    upVoteCount: 0
+                },
+
+                {
+                    name: 'Part 0: Margerine can be decorateed with sweet steak, also try covering the frittata with peanut sauce.',
+                    creatorName: 'Sagas crescere! ',
+                    duration: '1 hr',
+                    level: 'Introductory',
                     abstract: 'Galatae potuss, tanquam magnum idoleum.',
                     upVoteCount: 0
                 }
