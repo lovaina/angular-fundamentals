@@ -11,11 +11,13 @@
 <div class="container">
     <div class="navbar">
         <div class="navbar-inner">
-            <ul class="nav"></ul>
+            <ul class="nav">
+                <li><a href="/NewEvent.html">CreateEvent</a></li>
+            </ul>
         </div>
     </div>
 
-    <div ng-controller="EventController" >
+    <div ng-controller="EventController" style="padding: 20px">
         <img ng-src="{{event.imageUrl}}" alt="{{event.name}}">
         <div class="row">
             <div class="span11">
