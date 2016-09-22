@@ -17,7 +17,7 @@ function EventController($scope) {
                 {
                     name: 'Flavum, peritus humani generiss etiam perdere de rusticus, lotus luna.',
                     creatorName: 'Candidatuss experimentum! ',
-                    duration: '1 hr',
+                    duration: 1,
                     level: 'Advanced',
                     abstract: 'Rumor messiss, tanquam regius barcas.',
                     upVoteCount: 0
@@ -25,7 +25,7 @@ function EventController($scope) {
                 {
                     name: 'Powers, moons, and beloved explosion of the minerals will always protect them.',
                     creatorName: 'Amicitias resistere! ',
-                    duration: '1 hr',
+                    duration: 2,
                     level: 'Introductory',
                     abstract: 'A falsis, advena fortis navis.',
                     upVoteCount: 0
@@ -33,7 +33,7 @@ function EventController($scope) {
                 {
                     name: 'Margerine can be decorateed with sweet steak, also try covering the frittata with peanut sauce.',
                     creatorName: 'Sagas crescere! ',
-                    duration: '1 hr',
+                    duration: 3,
                     level: 'Intermediate',
                     abstract: 'Galatae potuss, tanquam magnum idoleum.',
                     upVoteCount: 0
@@ -42,7 +42,7 @@ function EventController($scope) {
                 {
                     name: 'Part 0: Margerine can be decorateed with sweet steak, also try covering the frittata with peanut sauce.',
                     creatorName: 'Sagas crescere! ',
-                    duration: '1 hr',
+                    duration: 4,
                     level: 'Introductory',
                     abstract: 'Galatae potuss, tanquam magnum idoleum.',
                     upVoteCount: 0
