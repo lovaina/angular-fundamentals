@@ -5,5 +5,7 @@ eventsApp.controller('LocaleSampleController',
         $scope.myDate = Date.now();
         $scope.myFormat = $locale.DATETIME_FORMATS.fullDate;
         $scope.otherFormat = $locale.DATETIME_FORMATS.longDate;
+
+        throw {message: 'error message'};
     }
 );
